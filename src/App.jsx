@@ -21,7 +21,6 @@ function App() {
     }
   }
   let removeValue = ()=>{
-    console.log('clicked', counter)
     if(counter > 0){
       counter = counter - 1
       setCounter(counter)
